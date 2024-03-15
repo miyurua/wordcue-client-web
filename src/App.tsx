@@ -10,7 +10,9 @@ const App = () => {
   document.body.className = "bg-[#f5fdf1]";
 
   return (
-    <div className={`container m-auto px-4 py-6 space-y-6`}>
+    <div
+      className={`flex flex-col h-screen container m-auto px-4 py-6 space-y-6`}
+    >
       {/* <div className="flex flex-col h-screen space-between"> */}
       <Navbar currentPge={currentPage} setCurrentPage={setCurrentPage} />
       {currentPage === "Home" ? <Home /> : <About />}
