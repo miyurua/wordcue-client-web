@@ -6,7 +6,7 @@ const About = () => {
       <div className="md:flex md:flex-1 md:flex-col md:items-start ">
         <h1 className="text-6xl font-bold text-[#008080]">About</h1>
         <img
-          src="https://www.dl.dropboxusercontent.com/scl/fi/5azfmy4pju7l6rm7hku5w/WordCue.png?rlkey=zljak0srtde1sm7zihxa6m2wf&dl=0"
+          src="https://www.dl.dropboxusercontent.com/scl/fi/mwf0y8bpqf2a30nzbqu1o/WordCueLogo.png?rlkey=888uh7gjm23w8ejgn2b1bd05y&dl=0"
           className="md:opacity-65 hidden md:block"
         />
       </div>

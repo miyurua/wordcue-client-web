@@ -11,7 +11,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentPge, setCurrentPage }) => {
       <div className="flex justify-between">
         <div>
           <img
-            src="https://www.dl.dropboxusercontent.com/scl/fi/5azfmy4pju7l6rm7hku5w/WordCue.png?rlkey=zljak0srtde1sm7zihxa6m2wf&dl=0"
+            src="https://www.dl.dropboxusercontent.com/scl/fi/mwf0y8bpqf2a30nzbqu1o/WordCueLogo.png?rlkey=888uh7gjm23w8ejgn2b1bd05y&dl=0"
             alt="word-cue"
             className="w-20 hover:cursor-pointer"
             onClick={() => setCurrentPage("Home")}
