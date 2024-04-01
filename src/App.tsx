@@ -15,7 +15,11 @@ const App = () => {
     >
       {/* <div className="flex flex-col h-screen space-between"> */}
       <Navbar currentPge={currentPage} setCurrentPage={setCurrentPage} />
-      {currentPage === "Home" ? <Home /> : <About />}
+      {currentPage === "Home" ? (
+        <Home currentPage={currentPage} setCurrentPage={() => setCurrentPage} />
+      ) : (
+        <About />
+      )}
       <Footer />
     </div>
     // </div>
